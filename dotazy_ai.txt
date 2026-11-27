@@ -1,0 +1,9 @@
+Použité dotazy pro AI
+
+1. „Pomoz mi navrhnout strukturu krátkého odborného textu na téma Bezpečnost hesel a ochrana uživatelských účtů. Požadavky: alespoň dvě sekce, jedna podsekce, seznam, tabulka a odkazy na zdroje.“
+
+2. „Připrav syntakticky správnou tabulku v LaTeXu s popiskem a třemi sloupci. Téma: způsoby ochrany uživatelských účtů. Uveď opatření, přínos a omezení.“
+
+3. „Zkontroluj strukturu tří propojených souborů main.tex, text.tex a zdroje.tex. Ověř zejména českou diakritiku, citace, speciální znaky a správné použití příkazů \input a thebibliography.“
+
+Poznámka: AI připravila technickou kostru dokumentu a tabulku. Souvislý text, seznam a vlastní závěry je potřeba doplnit vlastními slovy podle pravidel zadání.
