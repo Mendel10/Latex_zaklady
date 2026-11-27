@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper]{article}
+
+% Kódování a český jazyk
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage{lmodern}
+
+% Vzhled a sazba
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{xurl}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    pdftitle={Bezpečnost hesel a ochrana uživatelských účtů},
+    pdfauthor={Doplňte jméno}
+}
+
+\onehalfspacing
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0.25em}
+
+% ===== ÚDAJE K DOPLNĚNÍ =====
+\newcommand{\nazevprace}{Bezpečnost hesel a ochrana uživatelských účtů}
+\newcommand{\jmeno}{Doplňte jméno a příjmení}
+\newcommand{\predmet}{Doplňte název předmětu}
+\newcommand{\skola}{Doplňte název školy}
+\newcommand{\datumodevzdani}{\today}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    {\large \skola\par}
+    \vspace{3cm}
+    {\LARGE\bfseries \nazevprace\par}
+    \vspace{2cm}
+    {\large Praktické cvičení: Práce s více soubory v LaTeXu\par}
+    \vfill
+    \begin{flushleft}
+        \textbf{Autor/ka:} \jmeno\\[0.5em]
+        \textbf{Předmět:} \predmet\\[0.5em]
+        \textbf{Datum:} \datumodevzdani
+    \end{flushleft}
+    \vspace{1cm}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\input{text.tex}
+
+\newpage
+\input{zdroje.tex}
+
+\end{document}
